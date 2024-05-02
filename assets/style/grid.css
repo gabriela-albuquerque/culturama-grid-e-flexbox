@@ -80,3 +80,35 @@
         grid-row: 1/3;
     }
 }
+
+@media (min-width: 1440px) {
+    /* CATEGORIAS E DESTAQUES*/
+
+    .categorias {
+        display: grid;
+        grid-template-columns: calc(50% - 0.75rem);
+        grid-template-rows: auto 1fr auto;
+        column-gap: 1.5rem;
+        row-gap: 1rem;
+    }
+
+    .categorias__titulo {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .categorias__lista {
+        grid-column: 1/2;
+        grid-row: 2/4;
+    }
+
+    .destaques {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .categorias__imagem {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }    
+}
