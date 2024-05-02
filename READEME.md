@@ -1,0 +1,3 @@
+## **Projeto Culturama Praticando Grid e Flexbox**
+
+O projeto **Culturama**, que consiste em uma página de divulgação de eventos culturais, foi desenvolvido durante o curso da Alura e teve o objetivo de, a partir de um html base e um modelo no Figma, posicionar os elementos do layout através de Grid e o Flexbox. Foi desenvolvido em mobile first ( 360px) e realizada responsividade também para os breakpoints 720px e 1440px.
